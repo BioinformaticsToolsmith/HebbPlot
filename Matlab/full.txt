@@ -1,0 +1,5 @@
+	Plotted raw scores of a sequence. This figure is obtained by calculating the alignment of the sequence and plotting the last row of the alignment matrix.
+
+	Smoothed alignment sequence scores. This figure is obtained by using the last row of the alignment matrix and smoothing it. Smoothing is done by makeing each score represents the average of itself and its neighbors.
+
+	Smoothing alignment sequence scores with highlighted peaks. The scores between the peaks represent a motif. Peaks are found by applying the second derivative test to the smoothed scores.
